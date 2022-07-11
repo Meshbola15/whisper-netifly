@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat:wght@400;500&family=Poppins:wght@100;300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navButton {
+        @apply px-4 rounded-lg p-2 capitalize text-xl text-white text-center bg-orange-400 font-poppins;
+    }
+}
+
+
+/* @layer components {
+    .formButton {
+        @apply px-4 rounded-lg p-2 text-xl text-white bg-orange-400 font-poppins;
+    }
+} */
