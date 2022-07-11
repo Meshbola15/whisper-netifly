@@ -1,5 +1,4 @@
 import React from "react";
-
 import iconPreview from "../images/icons.png";
 import waves from "../images/waves.svg";
 
