@@ -1,5 +1,5 @@
 import React from "react";
-// import iconPreview from "../images/icons.png";
+import iconPreview from "../images/icons.png";
 import waves from "../images/waves.svg";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="rotate-180 w-full absolute -bottom-1 z-[4] text-gray-200 fill-current">
-        <img src="https://dreamsdontquit.com/wp-content/uploads/2022/07/photo1656642891-removebg-preview-e1656675611314.png" />
+        <img src={waves} />
       </div>
     </div>
   );
