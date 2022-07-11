@@ -33,13 +33,13 @@ const Navbar = () => {
             {toggleMenu ? (
               <MdClose
                 size={30}
-                color="#fff"
+                color="#475569"
                 onClick={() => setToggleMenu(false)}
               />
             ) : (
               <HiMenuAlt1
                 size={30}
-                color="#fff"
+                color="#475569"
                 onClick={() => setToggleMenu(true)}
               />
             )}
