@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="rotate-180 w-full absolute -bottom-1 z-[4] text-gray-200 fill-current">
-        <img src={waves} />
+        <img src={iconPreview} />
       </div>
     </div>
   );
