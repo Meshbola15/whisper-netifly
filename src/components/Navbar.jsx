@@ -15,7 +15,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="fixed w-full z-10 top-0 filter backdrop-blur-sm">
+    <div className="fixed w-full z-10 top-0 filter backdrop-blur-sm md:container">
       <div className="flex py-5 p-5 md:px-12 flex-row justify-between items-center bg-transparent">
         <div className="text-2xl md:text-3xl  text-gray-700 font-extrabold font-sact z-20">
           Whisper

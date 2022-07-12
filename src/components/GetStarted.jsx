@@ -31,7 +31,7 @@ const GetStarted = () => {
 
         <Button buttonType="navbutton" link="#" children="send tweet" />
 
-        <div className="text-2xl w-full text-center justify-center flex flex-col md:flex-row items-center font-poppins text-gray-700">
+        <div className="text-2xl w-full text-center justify-center pb-10 flex flex-col md:flex-row items-center font-poppins text-gray-700">
           <p>This Tweet is getting clicks…</p>
           <p className="w-full m-4 md:max-w-xl rounded-xl border-2 border-gray-700 text-center py-5">
             Tweet clicks
