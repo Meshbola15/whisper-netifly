@@ -12,16 +12,15 @@ const Earn = () => {
           How much can you earn with Whisper?
         </h2>
         <p className="text-lg text-gray-700 text-center">
-          Check your estimated monthly earnings by entering your Twitter user ID
-          and your follower count below.
+          Check your estimated monthly earnings by entering the number of folowers on twitter below
         </p>
         <form className="flex flex-col space-y-5 md:space-y-0 mx-auto md:space-x-3 capitalize items-end w-full md:flex-row">
-          <Input
+          {/* <Input
             placeHolder="Username"
             label=" twitter Username"
             type="text"
             width="max-w-[20vw]"
-          />
+          /> */}
           <Input
             label="How many followers do you have?"
             type="number"
