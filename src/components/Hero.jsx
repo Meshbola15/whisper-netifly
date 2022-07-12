@@ -1,5 +1,5 @@
 import React from "react";
-import iconPreview from "../images/icons.png";
+// import iconPreview from "../images/icons.png";
 import waves from "../images/waves.svg";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
         </div>
         <div className="w-full md:max-w-[45%]">
-          <img src={iconPreview} alt="icons" />
+          {/* <img src={iconPreview} alt="icons" /> */}
         </div>
       </div>
       <div className="rotate-180 w-full absolute -bottom-1 z-[4] text-gray-200 fill-current">
