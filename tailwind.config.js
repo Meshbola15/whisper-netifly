@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       poppins: ["poppins"],
       mont: ["montserrat"],
+      sact: ["Sacramento", 'cursive'],
     },
     container: {
       center: "true",
@@ -18,7 +19,6 @@ module.exports = {
       //     "0 45px 65px rgba(0, 0, 0, 0.15)",
       //   ],
       // },
-
     },
   },
   plugins: [],
