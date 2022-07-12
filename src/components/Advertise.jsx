@@ -10,14 +10,14 @@ const Advertise = () => {
     <div className=" w-full">
       <div className="container flex flex-col items-center justify-center space-y-6 py-10">
         <div className="flex flex-col justify-between items-center space-x-0 md:space-x-12 space-y-3 md:space-y-0  md:flex-row ">
-          <h2 className="text-6xl md:text-8xl text-left  text-gray-100 font-black font-sact">
+          <h2 className="text-6xl md:text-8xl text-left  text-neutral-600 font-black font-sact">
             Whisper
           </h2>
-          <h2 className="font-mont text-4xl md:text-6xl font-black text-gray-700">
+          <h2 className="font-mont text-center text-4xl md:text-6xl font-black text-gray-700">
             Advertise with Whisper!
           </h2>
         </div>
-        <h3 className="text-3xl font-poppins font-semibold text-gray-700 text-center">
+        <h3 className=" text-xl md:text-3xl font-poppins font-semibold text-gray-700 text-center">
           Check the cost to advertise on Whisper by entering your ad
           specifications below
         </h3>

@@ -14,7 +14,7 @@ const GetStarted = () => {
         <h1 className="md:text-5xl  font-bold  text-3xl pt-20 font-mont text-gray-800 capitalize">
           Get Started
         </h1>
-        <p className="font-poppins text-left text-xl text-gray-600 ">
+        <p className="font-poppins text-left text-base md:text-xl text-gray-600 ">
           Register as a user by sending the Tweet shown below.
           <span className="text-black font-extrabold">
             Users who register before Whisper is live will receive a free
