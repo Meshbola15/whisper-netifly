@@ -17,11 +17,11 @@ const Navbar = () => {
   return (
     <div className="fixed w-full z-10 top-0 filter backdrop-blur-sm">
       <div className="flex py-5 p-5 md:px-12 flex-row justify-between items-center bg-transparent">
-        <div className="text-2xl md:text-3xl  text-gray-100 font-[cursive]">
+        <div className="text-2xl md:text-3xl  text-gray-700 font-extrabold font-[cursive] z-20">
           Whisper
         </div>
 
-        <div className="flex flex-row space-x-2">
+        <div className="flex flex-row space-x-2 z-20">
           <Button buttonType="navbutton" link="#" children="Chart" />
           <Button buttonType="navbutton" link="#" children="Buy now" />
         </div>

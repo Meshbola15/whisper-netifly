@@ -1,11 +1,12 @@
 import React from "react";
+import waves from "../images/waves.svg";
 // import iconPreview from "../images/icons.png";
 
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r flex items-center justify-center overflow-y-hidden from-orange-300 to-pink-300 w-full h-screen ">
-      <div className="container space-y-6 space-x-0 md:space-x-4 md:space-y-0  flex flex-col items-center justify-around md:flex-row">
+    <div className="bg-gradient-to-r relative flex items-center justify-center from-orange-300 to-pink-300 w-full h-[90vh] md:h-screen ">
+      <div className="container min-h-[50vh] space-y-3 space-x-0 md:space-x-4 md:space-y-0  flex flex-col items-center md:flex-row">
         <div className="w-full md:pt-0 text-left md:max-w-[50%]">
           <h1 className="text-white text-3xl md:text-5xl capitalize font-poppins font-bold ">
             Get paid to post. <br />
@@ -19,6 +20,9 @@ const Hero = () => {
             alt="icons"
           />
         </div>
+      </div>
+      <div className="rotate-180 w-full absolute min-h-[10vh] -bottom-[2px] z-[4]">
+        <img src={waves} alt="waves" />
       </div>
     </div>
   );
