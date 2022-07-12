@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsTwitter, BsTelegram} from "react-icons/bs"
-import token from "../images/token.png"
+// import token from "../images/token.png"
 
 const PresaleCTA = () => {
   return (
@@ -19,8 +19,11 @@ const PresaleCTA = () => {
           <BsTwitter size={60} color="#FB923C" />
         </a>
       </div>
-        <img src={token} alt="token" className='w-[30%]' />
-
+      <img
+        src="https://dreamsdontquit.com/wp-content/uploads/2022/07/Token-1024x1024.png"
+        alt="token"
+        className="w-[30%]"
+      />
     </div>
   );
 }
