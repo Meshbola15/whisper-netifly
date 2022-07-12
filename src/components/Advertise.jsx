@@ -21,13 +21,13 @@ const Advertise = () => {
           Check the cost to advertise on Whisper by entering your ad
           specifications below
         </h3>
-        <form className="flex flex-col space-y-5 md:space-y-0 mx-auto md:space-x-3 capitalize items-end w-full md:flex-row">
-          <Input
+        <form className="flex flex-col space-y-5 md:space-y-0 mx-auto md:space-x-3 capitalize md:max-w-[70%] items-end w-full md:flex-row">
+          {/* <Input
             placeHolder="Username"
             label=" twitter Username"
             type="text"
             width="max-w-[20vw]"
-          />
+          /> */}
           <Input
             label="How many followers do you have?"
             type="number"

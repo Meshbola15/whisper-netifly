@@ -20,6 +20,7 @@ const PresaleCTA = () => {
         </a>
       </div>
         <img src={token} alt="token" className='w-[30%]' />
+
     </div>
   );
 }

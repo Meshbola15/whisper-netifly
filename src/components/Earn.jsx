@@ -14,7 +14,7 @@ const Earn = () => {
         <p className="text-lg text-gray-700 text-center">
           Check your estimated monthly earnings by entering the number of folowers on twitter below
         </p>
-        <form className="flex flex-col space-y-5 md:space-y-0 mx-auto md:space-x-3 capitalize items-end w-full md:flex-row">
+        <form className="flex flex-col space-y-5 md:space-y-0 mx-auto md:space-x-3 capitalize items-end w-full md:max-w-[70%] md:flex-row">
           {/* <Input
             placeHolder="Username"
             label=" twitter Username"
@@ -29,7 +29,7 @@ const Earn = () => {
           <Input
             label="Estimated Monthly Earnings"
             type="number"
-            width="max-w-[20vw]"
+            width="max-w-[10vw]"
           />
           <Button
             type="submit"
