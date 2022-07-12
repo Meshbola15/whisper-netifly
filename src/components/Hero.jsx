@@ -1,6 +1,6 @@
 import React from "react";
 // import iconPreview from "../images/icons.png";
-import waves from "../images/waves.svg";
+
 
 const Hero = () => {
   return (
@@ -19,9 +19,6 @@ const Hero = () => {
             alt="icons"
           />
         </div>
-      </div>
-      <div className="rotate-180 w-full absolute -bottom-1 z-[4] text-gray-200 fill-current">
-        <img src={waves} alt="waves" />
       </div>
     </div>
   );

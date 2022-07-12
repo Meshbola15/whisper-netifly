@@ -16,8 +16,8 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="fixed w-full z-10 top-0 filter backdrop-blur-sm">
-      <div className="flex p-5 px-12 flex-row justify-between items-center bg-transparent">
-        <div className="text-3xl text-blue-300 font-[cursive]">Whisper</div>
+      <div className="flex py-5 px-12 flex-row justify-between items-center bg-transparent">
+        <div className="text-2xl md:text-3xl  text-gray-100 font-[cursive]">Whisper</div>
 
         <div className="flex flex-row space-x-2">
           <Button buttonType="navbutton" link="#" children="Chart" />

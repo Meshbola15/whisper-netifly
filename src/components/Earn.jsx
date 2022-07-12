@@ -2,10 +2,14 @@ import React from "react";
 import Button from "./Button.components";
 import FeaturesBackdrop from "./FeaturesBackdrop.components";
 import Input from "./Input.componets";
+import waves from "../images/waves.svg";
 
 const Earn = () => {
   return (
     <div className=" w-full min-h-screen">
+      <div className="rotate-180 w-full absolute -bottom-0 z-[4] text-gray-200 fill-current">
+        <img src={waves} alt="waves" />
+      </div>
       <div className="flex bg-white w-full flex-col space-y-8 pt-24 container  bg-transparent">
         <h2 className="text-gray-700 text-center font-poppins text-3xl md:text-4xl">
           How much can you earn with Whisper?
