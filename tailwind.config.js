@@ -5,20 +5,32 @@ module.exports = {
     fontFamily: {
       poppins: ["poppins"],
       mont: ["montserrat"],
-      sact: ["Sacramento", 'cursive'],
+      sact: ["Sacramento", "cursive"],
     },
     container: {
       center: "true",
       padding: "2rem",
     },
     extend: {
-      // dropShadow: {
-      //   "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
-      //   "4xl": [
-      //     "0 35px 35px rgba(0, 0, 0, 0.25)",
-      //     "0 45px 65px rgba(0, 0, 0, 0.15)",
-      //   ],
-      // },
+      animation: {
+        blob: "blob 7s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+      },
     },
   },
   plugins: [],
