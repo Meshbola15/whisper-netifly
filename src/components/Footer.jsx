@@ -1,5 +1,5 @@
 import React from 'react'
-import token from '../images/tokenFooter.png'
+// import token from '../images/tokenFooter.png'
 import Icon from './IconButton.components';
 import {RiFacebookFill} from "react-icons/ri"
 import { BsTwitter, BsInstagram } from "react-icons/bs";
@@ -12,7 +12,11 @@ const Footer = () => {
   return (
     <div className="w-full container flex md:flex-row flex-col-reverse flex-wrap items-start justify-between p-4">
       <div className="flex flex-col  items-start justify-start w-full md:max-w-[30%]">
-        <img src={token} alt="token" className="w-[30%] mb-5" />
+        <img
+          src="https://dreamsdontquit.com/wp-content/uploads/2022/06/cropped-output-onlinepngtools.png"
+          alt="token"
+          className="w-[30%] mb-5"
+        />
         <p className="text-xl font-poppins ">
           Behind the word mountains, far from the countries Vokalia and
           Consonantia, there live the blind texts they live
