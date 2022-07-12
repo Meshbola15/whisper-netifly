@@ -14,6 +14,10 @@ const Hero = () => {
         </div>
         <div className="w-full md:max-w-[45%]">
           {/* <img src={iconPreview} alt="icons" /> */}
+          <img
+            src="https://dreamsdontquit.com/wp-content/uploads/2022/07/photo1656642891-removebg-preview-e1656675611314.png"
+            alt="icons"
+          />
         </div>
       </div>
       <div className="rotate-180 w-full absolute -bottom-1 z-[4] text-gray-200 fill-current">
