@@ -16,3 +16,37 @@
         @apply px-4 rounded-lg p-2 text-xl text-white bg-orange-400 font-poppins;
     }
 } */
+
+.slide-in-top {
+    -webkit-animation: slide-in-top 1.5s both;
+    animation: slide-in-top 1.5s both;
+}
+
+
+@-webkit-keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
